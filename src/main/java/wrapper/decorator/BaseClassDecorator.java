@@ -1,4 +1,4 @@
-package decorator;
+package wrapper.decorator;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,7 +8,7 @@ public class BaseClassDecorator {
 
     private List<String> list = new ArrayList<>(
             Arrays.asList(
-                    new String[]{"a", "b", "c"}));
+                    "a", "b", "c"));
 
     // работа с базовым классом
 

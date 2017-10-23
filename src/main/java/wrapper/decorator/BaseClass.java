@@ -1,4 +1,4 @@
-package decorator;
+package wrapper.decorator;
 
 public class BaseClass {
     private String string;
